@@ -1,0 +1,31 @@
+---
+// Credit to @rachsmithcodes for this function
+export async function getStaticPaths() {
+	let posts = await Astro.glob(`../../posts/*.md`);
+
+	return posts.map((post) => {
+		return {
+			params: { slug: post.frontmatter.slug },
+			props: { post: post },
+		};
+	});
+}
+
+const { post } = Astro.props;
+
+post.frontmatter.added = new Date(post.frontmatter.added).toLocaleDateString(
+	"en-us",
+	{
+		year: "numeric",
+		month: "short",
+		day: "numeric",
+	}
+);
+
+const {
+	Content,
+	frontmatter: { title, added, updated, tags, excerpt },
+} = post;
+---
+
+<Content />

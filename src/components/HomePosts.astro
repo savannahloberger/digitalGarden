@@ -1,0 +1,29 @@
+---
+import Post from "../components/Post.astro";
+
+const { allPosts } = Astro.props;
+
+// TODO: account for recently updated posts, too
+let posts = allPosts
+	.sort(
+		(a, b) =>
+			new Date(b.frontmatter.added).valueOf() -
+			new Date(a.frontmatter.added).valueOf()
+	)
+	.slice(0, 3);
+
+//.sort(() => 0.5 - Math.random()).slice(0, 3);
+---
+
+<content>
+	<ul class="posts-list">
+		{
+			posts.map(
+				({
+					url,
+					frontmatter: { description, slug, title, tags, added: date },
+				}) => <Post {url} {description} {date} {slug} {title} {tags} />
+			)
+		}
+	</ul>
+</content>
