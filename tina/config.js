@@ -104,6 +104,14 @@ export default defineConfig({
 								value: "musings",
 								label: "Musings",
 							},
+							{
+								value: "creative nonfiction",
+								label: "Creative Nonfiction",
+							},
+							{
+								value: "til",
+								label: "TIL",
+							},
 						],
 					},
 					{
