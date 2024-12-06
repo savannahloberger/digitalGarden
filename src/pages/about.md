@@ -1,9 +1,14 @@
-Welcome to this blog template by [cassidoo](https://cassidoo.co)!
+Welcome to this blog, er rather digital garden, 
+More about me here: [Savannah](https://technicallysavi.com/about)!
 
-It's using Astro and TinaCMS. You can [clone it on GitHub](https://github.com/cassidoo/blahg) to use it for yourself, and see how it works! I would _love_ if you told me when you do use it, I love seeing variations on it!
+This site is using Astro and TinaCMS. You can [clone the same template I did on GitHub](https://github.com/cassidoo/blahg) to use it for yourself!
 
-The tags at the bottom of the page are dynamically generated. The more tags you use, the more tags are added to the list! Posts are simple markdown files.
+Posts are written in markdown and any writings pre winter 2024 have been imported in. 
 
-You should also check out [my newsletter](https://cassidoo.co/newsletter), or my word game [Jumblie](https://jumblie.com/?utm_campaign=blahgtmp&utm_source=github), or my [GitHub profile](https://github.com/cassidoo). Or don't. Follow your dreams.
+You should also check out (in no particular order): 
+ - [cassidoo's newsletter](https://cassidoo.co/newsletter), or my word game [Jumblie](https://jumblie.com/?utm_campaign=blahgtmp&utm_source=github), or my [GitHub profile](https://github.com/cassidoo). 
+ - [Maggie Appletons Digital Garden]
+ 
 
-Enjoy!
+Take chance, make mistakes, and follow your dreams.
+All the best!
