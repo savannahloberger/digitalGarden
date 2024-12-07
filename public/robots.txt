@@ -1,4 +1,4 @@
-Sitemap: https://technicallysavi.com/blog/sitemap-index.xml
+Sitemap: https://technicallysavi.com/sitemap-index.xml
 
 User-agent: *
 Disallow:
