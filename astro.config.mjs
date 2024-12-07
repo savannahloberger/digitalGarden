@@ -3,7 +3,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://technicallysavi.com/blog/",
+	site: "https://technicallysavi.com/",
 	base: "/",
 	integrations: [sitemap()],
 	markdown: {
