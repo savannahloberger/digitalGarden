@@ -1,6 +1,6 @@
 # Savannah's Blog / Digital Garden
 
-//[![Netlify Status](https://api.netlify.com/api/v1/badges/eab04209-5f7f-41ed-a8dd-c45a9ebb1834/deploy-status)](https://app.netlify.com/sites/blahg/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5bf8b0c0-6119-40b9-b9ab-5f57d6930434/deploy-status)](https://app.netlify.com/sites/technicallysavi/deploys)
 
 Hello, welcome. This is a blog ("blahg" is the proper spelling for Chicagoans) template. It's built with [Astro](https://astro.build), and uses [TinaCMS](https://tina.io) to edit the content!
 
